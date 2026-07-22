@@ -1,0 +1,72 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.env
+.env.*
+.python-version
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+
+# ===========================
+# Data Files
+# ===========================
+data/accounts.csv
+data/recipients.csv
+data/*.json
+
+# Campaign Output
+campaign_*.json
+
+# Profiles
+profiles/
+
+# ===========================
+# IDE
+# ===========================
+.vscode/
+.idea/
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Testing
+# ===========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===========================
+# Build
+# ===========================
+dist/
+build/
+*.egg-info/
+
+# ===========================
+# Secrets
+# ===========================
+*.pem
+*.key
+*.crt
+*.p12
+
+# ===========================
+# Temporary Files
+# ===========================
+*.tmp
+*.bak
+*.swp
